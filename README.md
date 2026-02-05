@@ -1,65 +1,110 @@
-# [Start Bootstrap - SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/)
+name = input ("Enter Name: ")
+print (name)
+print (type (name))
 
-[SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+i = int (input ("Enter any integer: "))
+print (i)
 
-For the legacy Bootstrap 3 version of this theme, you can view the [last stable release](https://github.com/StartBootstrap/startbootstrap-sb-admin-2/releases/tag/v3.3.7%2B1) of SB Admin 2 for Bootstrap 3.
+print (type (i))
 
-## Preview
+f = float (input ("Enter any floating number: "))
+print (f)
+print (type (f))
 
-[![SB Admin 2 Preview](https://assets.startbootstrap.com/img/screenshots/themes/sb-admin-2.png)](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)
+b = bool (input ("Is 2 + 2 = 4 ? State True or False: "))
+print (b)
+print (type (b))
 
-**[Launch Live Preview](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)**
+=================================================================================================================================================
 
-## Status
+a = int (input ("Enter number a: "))
+b = int (input ("Enter number b: "))
+print ("Sum of a & b: ",(a+b))
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-sb-admin-2/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-sb-admin-2.svg)](https://www.npmjs.com/package/startbootstrap-sb-admin-2)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-sb-admin-2.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-sb-admin-2)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2?type=dev)
+c = int (input ("Enter number c: "))
+d = int (input ("Enter number d: "))
+print ("Subtraction of d from c: ",(c-d))
 
-## Download and Installation
+=================================================================================================================================================
 
-To begin using this template, choose one of the following options to get started:
+a = int (input ("Enter value of a: "))
+b = int (input ("Enter value of b: "))
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/sb-admin-2/)
-* Install via npm: `npm i startbootstrap-sb-admin-2`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-sb-admin-2.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-sb-admin-2)
+if a > b :
+    print ("a is greater than b")
+elif b > a :
+    print ("b is greater than a")
+else :
+    print ("a and b are equal...")
+    
+if a >= 90 :
+    print ("Topper")
+elif a >= 70 :
+    print ("Good")
+elif a >= 50 :
+    print ("Average")
+else :
+    print ("Fail")
 
-## Usage
+=================================================================================================================================================
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+for i in range (6) :
+    print (i)
 
-### Gulp Tasks
+print ()
 
-* `gulp` the default task that builds everything
-* `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-* `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-* `gulp js` minifies the themes JS file
-* `gulp vendor` copies dependencies from node_modules to the vendor directory
+for j in range (1,6) :
+    print (j)
 
-You must have npm installed globally in order to use this build environment. This theme was built using node v11.6.0 and the Gulp CLI v2.0.1. If Gulp is not running properly after running `npm install`, you may need to update node and/or the Gulp CLI locally.
+print ()
+    
+for k in range (3) :
+    print ("Hello")
+    print (k)
+    
+print ()
+    
+for l in range (1,3) :
+    print ("Hello")
+    print (l)
 
-## Bugs and Issues
+=================================================================================================================================================
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/sb-admin-2/).
+name = input ("Enter Student's Name: ")
+print ("Entered Name:",(name))
+print (type(name))
+print ()
 
-## About
+marks = int (input ("Enter Student's Marks: "))
+print ("Entered Marks:",(marks))
+print (type(marks))
+print ()
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+if marks >= 75 :
+    print ("Distinction")
+elif marks >= 60 :
+    print ("First Class")
+elif marks >=40 :
+    print ("Passed")
+else :
+    print ("Fail")
 
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
+=================================================================================================================================================
 
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+n = int (input ("How many times you want to enter the no.?: "))
+print ("Entered n:",n)
+print ("Type of entered n:",type(n))
+print()
+for i in range (n) :
+    num = int (input ("Enter number: "))
+    print ("Entered num:",num)
+    print ("Type of entered num:",type(num))
 
-* <https://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
+    if num > 0 :
+        print ("Entered no. is positive")
+    else :
+        print ("Entered no. is negative")
+    
+    print()
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE) license.
+=================================================================================================================================================
